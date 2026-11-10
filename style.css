@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Exo 2', sans-serif;
+            background: linear-gradient(to top, rgba(73, 2, 55, 0.8), rgb(0, 0, 0, 0.8)),url("./resource/ktc-blog-gaming-pc-vs-console-hero-lg.jpg");
+            background-size: cover;
+            background-position: center;
+           
+            color: rgb(180, 1, 180);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        } 
+        .Menu {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 40px;
+            background: #000000a6;
+            position: sticky;
+            top: 0;
+            backdrop-filter: blur(10px);    ;
+        }
+        .Menu nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            margin-left: 70px;
+        }
+        .Menu nav a {
+            margin-left: 20px;
+            font-size: 16px;
+            text-decoration: none;
+            color: rgb(133, 10, 133);
+            font-family: 'Orbitron', sans-serif;
+        }
+       .logo img {
+            height: 100px;
+            width: auto;
+            display: block;
+        }
+        .company-name {
+            display: flex;
+            padding-top: 10px;
+            font-family: 'Orbitron', sans-serif;
+        }
+         nav a:hover {
+            color:rgb(180, 1, 180)
+        }
+       .nav-link.active {
+           color: rgb(180, 1, 180); 
+           font-weight: bold;
+           border-bottom: 2px solid rgb(180, 1, 180); 
+        }
+        .btn{
+            display: inline-block;
+            background-color: #2563EB;
+            padding: 15px 30px;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            font-size: 20px;
+            text-decoration: none;
+            
+        }
+        .btn:hover {
+            background-color: rgb(180, 1, 180);
+        }
+        .footer {
+           text-align: center;
+            padding: 15px;
+            background-color: #e0e0e04d;
+            color: rgb(252, 244, 252);
+            font-family: 'Orbitron', sans-serif;
+            width: auto;
+            position: relative;
+            font-size: 0.9rem;
+            margin: auto 0 0;
+        } 
+        

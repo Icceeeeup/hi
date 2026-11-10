@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  <style>
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            justify-content: center;
+            background-color: #0a0a0f7c;
+            align-items: start;
+            padding: 20px 60px;
+        }
+        
+       .product-card {
+            display: flex;
+            flex-direction:column;
+            justify-content: space-between;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            height: 450px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border: 2px solid #000000;
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .product-image {
+            height: 250px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .product-title {
+            font-size: 1.1em;
+            margin: 10px;
+        }
+
+        .price-box {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #00ffcc;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .buy-btn {
+            background-color: #b001b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: #ff00ff;
+        }
+    </style>
+</head>
+<body>
+    <header class="Menu">
+        <div class="company-name">
+            <img src="./resource/AMBA.png" height="100px" alt="Logo">
+            <h1>AMBA Game</h1>
+        </div>
+        <nav class="nav-links">
+            <div>
+                <a href="./home.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="#" class="nav-link active">Shop Now</a>
+               <a href="./contact.html">Contact us</a>
+            </div>
+        </nav>
+        <nav>
+        <div>
+            <a href="./shop.html">All</a>
+            <a href="./shop2.html">Xbox</a>
+            <a href="./shop3.html">Playstation</a>
+            <a href="./shop4.html"class="nav-link active">Nintendo</a>
+        </div>
+    </nav>
+    </header>
+    
+    <main class="product-grid">
+        <div class="product-card">
+            <img src="./resource/81TbBqrZ9AL._AC_UL375_SR375,375_.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Tomodachi Life</h2>
+            <p class="platform">Platform: Nintendo Switch</p>
+        <div class="price-box">
+            <span class="price">$38.20</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+          <div class="product-card">
+            <img src="./resource/81LLoGOJ9RL.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Sonic Superstar</h2>
+            <p class="platform">Platform: Nintendo Switch</p>
+        <div class="price-box">
+            <span class="price">$59.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/1784180685055-let's go picka.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Pokemon Let's go Pikachu!</h2>
+            <p class="platform">Platform: Nintendo Switch</p>
+        <div class="price-box">
+            <span class="price">$49.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/SF6 ns2.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Street Fighter6 Fighter Edition</h2>
+            <p class="platform">Platform: Nintendo Switch 2</p>
+        <div class="price-box">
+            <span class="price">$69.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/ggst ns.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Guilty Gear Strive</h2>
+            <p class="platform">Platform: Nintendo Switch</p>
+        <div class="price-box">
+            <span class="price">$59.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/ff7 rmake.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Final Fantasy 7 Remake </h2>
+            <p class="platform">Platform: Nintendo Switch 2</p>
+        <div class="price-box">
+            <span class="price">$69.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/zelda botw.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title">Zelda Breath of the wild</h2>
+            <p class="platform">Platform: Nintendo Switch</p>
+        <div class="price-box">
+            <span class="price">$49.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/z a.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title"> Pokemon Legend Z-A </h2> 
+            <p class="platform">Platform: Nintendo Switch 2</p>
+        <div class="price-box">
+            <span class="price">$59.99</span>
+        </div>
+           <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/switch oled.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title"> Nintendo Switch Oled </h2> 
+        <div class="price-box">
+            <span class="price">$259.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+        <div class="product-card">
+            <img src="./resource/switch2.jpg" alt="Game Cover" class="product-image">
+            <h2 class="product-title"> Nintendo Switch 2 </h2> 
+        <div class="price-box">
+            <span class="price">$499.99</span>
+        </div>
+            <a href="./Check out.html">
+                <button class="buy-btn">Buy Now</button>
+            </a>
+        </div>
+         
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 AMBA Game. All rights reserved.</p>
+    </footer>
+
+    
+
+        
+
+
+
+        
+</main>
+</body>
+</html>
